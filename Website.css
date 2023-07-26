@@ -1,0 +1,50 @@
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.Background-Picture {
+    background-image: url("https://images.pexels.com/photos/1287075/pexels-photo-1287075.jpeg?cs=srgb&dl=pexels-eberhard-grossgasteiger-1287075.jpg&fm=jpg");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.Navigation-Banner{
+    position: sticky;
+    display:flex;
+    background-color: Black;
+    height: 100px;
+}
+
+.Navi-Text{
+    position: sticky;
+    display: flex;
+    text-decoration:none;
+    color:white;
+    font-size:40px;
+    padding-left:100px;
+    padding-top:25px;
+}
+.Background-For-Text{
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: cadetblue;
+    height: fit-content;
+}
+
+.Texts{
+    padding:15px;
+    margin: 0 100px;
+    display: flex;
+    font-family:'Times New Roman', Times, serif;
+    color: black;
+}
+.Titels{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

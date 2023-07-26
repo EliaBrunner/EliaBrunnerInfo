@@ -1,0 +1,68 @@
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.Background-Picture {
+  background-image: url("https://images.pexels.com/photos/1287075/pexels-photo-1287075.jpeg?cs=srgb&dl=pexels-eberhard-grossgasteiger-1287075.jpg&fm=jpg");
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  overflow: auto;
+}
+
+.Navigation-Banner{
+  position: sticky;
+  display:flex;
+  background-color: #639276;
+  height: 100px;
+}
+
+.Navi-Text{
+  position: sticky;
+  display: flex;
+  text-decoration:none;
+  color:white;
+  font-size:40px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top:25px;
+}
+
+.Texts{
+  padding: 15px;
+  margin: 0 100px;
+  display: flex;
+  font-family:'Times New Roman', Times, serif;
+  color: black;
+}
+.Titels{
+
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 15px;
+  margin: 0 100px;
+  display: flex;
+  font-family:'Times New Roman', Times, serif;
+  color: black;
+}
+.Texts-Group{
+  background-color:  #6c9e81;
+  padding: 50px;
+  margin: 50px;
+  border-radius: 25px;
+}
+.Foto-Study{
+  width: 50%;
+  padding-left: 50;
+}
+a {
+  box-shadow: inset 10 0 0 0 #4f755f;
+  color: #4f755f;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .5s ease-in-out, box-shadow .5s ease-in-out;;
+}
+a:hover{
+  box-shadow: inset 250px 0 0 0 #4f755f;
+}
